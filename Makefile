@@ -2,7 +2,7 @@
 
 icons:
 	@echo "Generating launcher icons..."
-	@fvm dart run flutter_launcher_icons
+	@fvm dart run icons_launcher:create
 
 upgrade:
 	@echo "Upgrading dependencies..."
