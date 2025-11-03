@@ -9,21 +9,27 @@ version: 0.1.0+1
 
 environment:
   sdk: ^3.9.2
-  flutter: ^3.35.6
+  flutter: ^3.35.7
 
 dependencies:
   flutter:
     sdk: flutter
 
+  flutter_acrylic: ^1.1.4
+  window_manager: ^0.5.1
+  flutter_modular: ^6.4.1
   cupertino_icons: ^1.0.8
+  bitsdojo_window: ^0.1.6
+  symphony_ui:
+    path: ../symphony_ui
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^6.0.0
-  very_good_analysis: ^10.0.0
   icons_launcher: ^3.0.3
+  very_good_analysis: ^10.0.0
 
 flutter:
   uses-material-design: true
