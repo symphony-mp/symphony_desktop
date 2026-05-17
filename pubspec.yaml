@@ -8,22 +8,22 @@ repository: https://github.com/symphony-mp/symphony_desktop
 version: 0.1.0+1
 
 environment:
-  sdk: ^3.11.4
-  flutter: ^3.41.6
+  sdk: ^3.11.5
+  flutter: ^3.41.9
 
 dependencies:
   flutter:
     sdk: flutter
 
-  window_manager: ^0.5.1
-  flutter_acrylic: ^1.1.4
   flutter_modular: ^6.4.1
-  cupertino_icons: ^1.0.8
-  bitsdojo_window: ^0.1.6
   symphony_ui:
     git:
       ref: main
       url: https://github.com/symphony-mp/symphony_ui
+  symphony_engine:
+    git:
+      ref: main
+      url: https://github.com/symphony-mp/symphony_engine
 
 dev_dependencies:
   flutter_test:
@@ -34,4 +34,4 @@ dev_dependencies:
   very_good_analysis: ^10.0.0
 
 flutter:
-  uses-material-design: true
+  uses-material-design: false

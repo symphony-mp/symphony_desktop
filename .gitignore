@@ -47,4 +47,4 @@ app.*.map.json
 # FVM Version Cache
 .fvm/
 
-https://github.com/symphony-mp/symphony_ui
+pubspec_overrides*

@@ -1,0 +1,28 @@
+name: symphony
+version: 0.1.0
+summary: Open Source Music Player.
+description: An open source music player that contains the main local and offline features.
+
+confinement: strict
+base: core22
+grade: stable
+
+slots:
+  dbus-symphony:
+    interface: dbus
+    bus: session
+    name: br.com.softyes.symphony
+
+apps:
+  symphony:
+    command: symphony
+    extensions: [gnome]
+    plugs:
+      - network
+    slots:
+      - dbus-symphony
+parts:
+  symphony:
+    source: .
+    plugin: flutter
+    flutter-target: lib/main.dart

@@ -5,6 +5,7 @@
     "buildlog",
     "COCOAPODS",
     "cupertino",
+    "dbus",
     "Flashdance",
     "linux",
     "podfile",
@@ -14,8 +15,9 @@
     "swiftpm",
     "Symbolication",
     "Titlebar",
-    "xcconfig"
+    "xcconfig",
+    "yaraui"
   ],
-  "dart.flutterSdkPath": ".fvm/versions/3.41.6",
+  "dart.flutterSdkPath": ".fvm/versions/3.41.9",
   "makefile.configureOnOpen": false
 }
